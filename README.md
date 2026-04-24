@@ -11,7 +11,8 @@ This is the repo for final project in Applied Machine Learning course Spring 202
 
 * Step 1:
     - Outlining project strucuture
-```mkdir -p \
+```
+    mkdir -p \
     data/raw data/processed data/external \
     notebooks \
     src/{data,features,models,utils} \
@@ -25,7 +26,8 @@ This is the repo for final project in Applied Machine Learning course Spring 202
 * Step 2:
     - Create virtual environment
     - Install required Python libraries
-```cat > requirements.txt << 'EOF'
+```
+    cat > requirements.txt << 'EOF'
     pandas
     numpy
     scikit-learn
